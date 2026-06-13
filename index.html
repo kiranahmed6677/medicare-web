@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medicare Healthcare</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Medicare</div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#doctors">Doctors</a></li>
+            <li><a href="#appointment">Appointment</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="menu-btn" id="menuBtn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Your Health, Our Priority</h1>
+            <p>Providing world-class healthcare services with experienced doctors and modern facilities.</p>
+            <a href="#appointment" class="btn">Book Appointment</a>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services" id="services">
+        <h2>Our Services</h2>
+
+        <div class="service-container">
+            <div class="card">
+                <i class="fas fa-heartbeat"></i>
+                <h3>Cardiology</h3>
+                <p>Advanced heart care and diagnosis.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-user-md"></i>
+                <h3>General Medicine</h3>
+                <p>Complete health checkups and treatment.</p>
+            </div>
+
+            <div class="card">
+                <i class="fas fa-tooth"></i>
+                <h3>Dental Care</h3>
+                <p>Modern dental treatments and care.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Doctors -->
+    <section class="doctors" id="doctors">
+        <h2>Our Specialists</h2>
+
+        <div class="doctor-container">
+            <div class="doctor-card">
+                <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=500" alt="">
+                <h3>Dr. Sarah Khan</h3>
+                <p>Cardiologist</p>
+            </div>
+
+            <div class="doctor-card">
+                <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=500" alt="">
+                <h3>Dr. Ahmed Ali</h3>
+                <p>Neurologist</p>
+            </div>
+
+            <div class="doctor-card">
+                <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500" alt="">
+                <h3>Dr. Maria</h3>
+                <p>Dentist</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Appointment -->
+    <section class="appointment" id="appointment">
+        <h2>Book an Appointment</h2>
+
+        <form id="appointmentForm">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="date" required>
+            <button type="submit">Submit</button>
+        </form>
+
+        <p id="message"></p>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <h3>Medicare Healthcare</h3>
+        <p>Email: info@medicare.com</p>
+        <p>Phone: +92 300 1234567</p>
+        <p>© 2026 Medicare. All Rights Reserved.</p>
+    </footer>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
